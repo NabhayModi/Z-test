@@ -61,3 +61,6 @@ fig.add_trace(go.Scatter(x=[third_std_deviation_start,third_std_deviation_start]
 fig.add_trace(go.Scatter(x=[third_std_deviation_end,third_std_deviation_end], y=[0,0.17], mode="lines", name="STANDARD DEVIATION 3 END"))
 fig.show()
 
+z_score=(mean_of_sample1 - mean)/std_deviation
+print"z score="z_score)
+
